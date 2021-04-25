@@ -1,0 +1,174 @@
+@import url("./partials/_variable.css")
+.navbar,.navbar-brand{
+    padding-left: 3%;
+}
+.navbar{
+    padding: 1rem 20rem;
+}
+
+.nav-item .nav-link{
+    font-family: var(roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    color:var(--bs-indigo);
+    padding: 1.7rem;
+}
+
+ .navbar .navbar-brand .active.a{
+        background:var(--bs-blue);
+       -webkit-background-clip: Text;
+       -webkit-text-fill-color: transparent;
+       background-clip: text;
+}
+
+
+.navbar .navbar-brand .a hover{
+    background: var(--bs-gradient-color);
+   -webkit-background-clip: Text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+
+body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+  }
+  a {
+    color: var(--bs-blue);
+  }
+
+/*-----------Banner Area------------------*/
+
+.site-banner .site-title .h3{
+    padding: 35%;
+    font-weight: 500;
+
+}
+
+.site-banner .site-title .h3 ::after{
+    content:' ' ;
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display:inline-block;
+    margin-left: 5%;
+    transform: translateY(10px);
+
+}
+
+.site-banner .site-title .h1{
+    font-size: 5rem;
+}
+.site-banner .site-title .h4{
+    font-size: 1.5rem;
+}
+.site-banner .site-title .banner-image>img{
+    padding: 70rem o;
+    width: 90px;
+}
+
+/*-----------Banner Area------------------*/
+
+
+/*------------ Buttons-------------------*/ 
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: var( --bs-blue);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .7s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--bs-blue);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--bs-blue);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+/*==================(Start About Area)=============*/
+
+.about-area{
+    padding: 8rem 5rem;
+}
+.about-area .about-title h2> span{
+    display:block;
+    font:normal bold 48px/60px var(--roboto);
+    letter-spacing: 9px;
+    }
+.about-area .about-title .paragraph> p{
+    color: rgba(0, 0, 0, 0.644);
+      }
+/*==================(End About Area)=============*/
+
+
+/*==================Start Service=============*/
+
+   .service-area .service-title{
+    .site-main .services-area{
+        padding: 7rem 2rem;
+    }
+    
+    .services-area .services-title{
+        padding: 0 14rem;
+    }
+    
+    .services-area .services-title h1{
+        font-size: 35px;
+    }
+    
+    .services-area> .services{
+        background: rgba(248, 252, 253, 0.973);
+        padding: 2rem 0;
+        width: 16rem;
+        margin: 5rem .5rem;
+        transition: box-shadow .7s ease;
+    }
+    
+    .services-area >.services:hover{
+        box-shadow: var(--box-shadow);
+    }
+    
+    
+   }
+  
+
+
+/*==================End Service=============*/
+
+
+
+
+
+
+
+
