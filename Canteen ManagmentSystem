@@ -272,6 +272,6 @@ void intro()
 	cout<<"\n\n\n\t  CANTEEN";
 	cout<<"\n\n\tMANAGEMENT";
 	cout<<"\n\n\t  SYSTEM \n\t\t (using C++)";
-	cout<<"\n\n\n\nMADE BY : JYOTI HARODE(14) AND SHRUTI AGRAWAL(73)";
+	cout<<"\n\n\n\nMADE BY : ABHISHEK SINGH";
 	cin.get();
 }
